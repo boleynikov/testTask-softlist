@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-task-softlist-client-side-solution",
+    "id": "7f45bd84-22bc-4b43-aed0-d41f8f67f99f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "test-task-softlist description"
+      },
+      "longDescription": {
+        "default": "test-task-softlist description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-task-softlist Feature",
+        "description": "The feature that activates elements of the test-task-softlist solution.",
+        "id": "cc7e9900-5479-4e32-8a9a-7ad4189201f7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-task-softlist.sppkg"
+  }
+}

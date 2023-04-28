@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.17.6",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "test-task-softlist",
+    "libraryId": "7f45bd84-22bc-4b43-aed0-d41f8f67f99f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "test-task-softlist",
+    "solutionShortDescription": "test-task-softlist description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://softlist365.sharepoint.com/sites/devOleinikov/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "61469e45-a237-4059-9b37-e6b26e3fcc65",
+        "PageType": 8,
+        "RootFolder": "/sites/devOleinikov/Lists/Purchase%20Requests",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testTaskSoftlist_NewForm": {
+      "pageUrl": "https://softlist365.sharepoint.com/sites/devOleinikov/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "61469e45-a237-4059-9b37-e6b26e3fcc65",
+        "PageType": 8,
+        "RootFolder": "/sites/devOleinikov/Lists/Purchase%20Requests",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testTaskSoftlist_EditForm": {
+      "pageUrl": "https://softlist365.sharepoint.com/sites/devOleinikov/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "61469e45-a237-4059-9b37-e6b26e3fcc65",
+        "PageType": 6,
+        "RootFolder": "/sites/devOleinikov/Lists/Purchase%20Requests",
+        "ID": 21,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testTaskSoftlist_ViewForm": {
+      "pageUrl": "https://softlist365.sharepoint.com/sites/devOleinikov/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "61469e45-a237-4059-9b37-e6b26e3fcc65",
+        "PageType": 4,
+        "RootFolder": "/sites/devOleinikov/Lists/Purchase%20Requests",
+        "ID": 21,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
